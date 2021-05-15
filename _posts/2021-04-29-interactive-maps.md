@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Interactive Maps in R - An analysis of historical minimum wage values for US states"
 categories:
   - Projects
@@ -7,6 +6,10 @@ tags:
   - R
   - Visualization
 excerpt: "Small project on data visualization through interactive presentations in R" 
+header:
+  overlay_image: /assets/images/posts/interactive maps/interactive-map-bg.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Pexels**](https://www.pexels.com/)"
 ---
 
 ## Table of Contents
@@ -105,7 +108,9 @@ It was a very interesting learning experience working with plotly and creating t
 
 # Conclusion
 
-From this project, we can see that the minimum wage level has fallen far below where it used to be in real terms. In order for the 2020 Federal minimum wage to match the 1968 Federal minimum wage in buying power, it would need to be $8.55. In order for the minimum wage change to match the growth in nominal US GDP across this time period, it would need to be $29.19. This highlights the urgent need to revisit minimum wage levels, which has been a topic of contention in recent months.
+From this project, we can see that the minimum wage level has fallen far below where it used to be in real terms for most US states and at the Federal level. In order for the 2020 Federal minimum wage to match the 1968 Federal minimum wage in buying power, it would need to be $8.55. 
 
-One potential solution that would need more analysis could be a universal basic income calibrated such that minimum wage workers have a combined monthly income that at the very least guarantees them a buying power equal to their 1968 peers.
+We also see that the minimum wage has lagged behind US economic growth to a large extent. From the [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=US), US nominal GDP in 1968 was $0.9425Tn, and 2019 nominal GDP was $21.433Tn, an increase of over 2000%. In order for the minimum wage change to match this economic growth across, the Federal minimum wage would need to be $29.19 in 2019. 
+
+This highlights the urgent need to revisit minimum wage levels, which has been a topic of contention in recent months. One potential solution that has been brought up could be a universal basic income. This could be calibrated such that minimum wage workers have a combined monthly income that at the very least guarantees them a buying power equal to their 1968 peers. However, more work would need to be done to analyze the economic impact and resources needed to implement this. One such experiment is being conducted in [New Jersey](https://www.nbcnewyork.com/news/local/njs-largest-city-launches-6000-guaranteed-income-pilot-program/3046337/) and could potentially be the start of universal income experiements across more US states.
 
