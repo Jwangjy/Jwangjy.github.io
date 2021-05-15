@@ -30,7 +30,7 @@ The topic of choice for this visualisation is the minimum wage in each US state.
 
 # Data cleaning
 
-The data was taken from the Department of Labor's [site](https://www.dol.gov/agencies/whd/state/minimum-wage/history) and [Kaggle](https://www.kaggle.com/lislejoem/us-minimum-wage-by-state-from-1968-to-2017). A secondary data set was downloaded to transform the State names to their State code via an inner join between the two data sets.
+The data was taken from the Department of Labor's [site](https://www.dol.gov/agencies/whd/state/minimum-wage/history) and [Kaggle](https://www.kaggle.com/lislejoem/us-minimum-wage-by-state-from-1968-to-2017). Since plotly only recognizes US states based on their two letter State code, a secondary data set was downloaded to transform the State names to their State code via an inner join between the two data sets.
 
 # Analysis
 
