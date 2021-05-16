@@ -22,7 +22,7 @@ header:
 
 # Introduction
 
-Apart from a single Linear Regressions group project, my Master's classes did not cover much data visualization and presentation. Hence, I wanted to do a series of small projects to practice different visualization methods and tools. This specific project was inspired by [DatasliceYT](https://www.youtube.com/watch?v=RrtqBYLf404) who created a similar visualization.
+Data visualization is key in any kind of data presentation. I wanted to do a series of small projects to practice different visualization methods and tools. This specific project was inspired by [DatasliceYT](https://www.youtube.com/watch?v=RrtqBYLf404) who created a similar visualization.
 
 # Summary
 
@@ -34,7 +34,7 @@ The data was taken from the Department of Labor's [site](https://www.dol.gov/age
 
 # Analysis
 
-For the analysis, I will be presenting certain segments of the code used. The full code is available on the github page for the [project](https://github.com/Jwangjy/Interactive-Map-Min-Wage).
+For the analysis, I will only be presenting certain segments of the code used. The full code is available on the github page for the [project](https://github.com/Jwangjy/Interactive-Map-Min-Wage).
 
 ## Nominal Wage Changes from 1968 - 2020
 
@@ -105,6 +105,8 @@ As shown, roughly half of the US states have failed to outperform the Federal go
 # Challenges
 
 It was a very interesting learning experience working with plotly and creating these interactive graphs. I enjoyed the process of data transformation as well in calculating the real wage numbers. The process highlighted to me the importance of having the technical know-how to get the data that I needed, as my original attempts to scrape the data from the Department of Labor's website directly did not go well. I was lucky to find cleaned data on Kaggle that worked for this project. Data scrapping will definitely be a skill I look to improve on in future projects. 
+
+The project also only covered a small portion of the capabilities of plotly. I am definitely interested in exploring other visualization techniques in plotly in the future.
 
 # Conclusion
 
