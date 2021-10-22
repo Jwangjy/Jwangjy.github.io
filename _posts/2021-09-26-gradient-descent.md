@@ -1,11 +1,13 @@
 ---
-title: "Advanced Econometrics - Gradient Descent and Newton Method"
+title: "Advanced Econometrics - Machine Learning - Gradient Descent and Newton Method for Optimization"
 categories:
   - Projects
   - Matlab
 tags:
   - Matlab
   - Machine Learning
+  - Regression
+  - Supervised Learning
 excerpt: "Advanced Econometrics Homework on Gradient Descent and Newton Method Optimization" 
 header:
   overlay_image: /assets/images/posts/graddesc/graph1.jpg
@@ -41,6 +43,7 @@ x^2 + y^2 = 26
 ```
 ![graph2.jpg](/assets/images/posts/graddesc/graph2.jpg)
 
+The regressions were run over 1000 iterations, with a learning rate of 0.001. 
 
 In general, the gradient descent and Newton methods arrived at the same answers as MATLAB's own optimization functions. The number of iterations is roughly the same, although the Newton method theoretically should converge faster. 
 
@@ -56,7 +59,7 @@ The full self written MATLAB code is available on the github page for the [proje
 
 # Take Aways
 
-1. Learning rate is extremely important. High learning rates often result in divergence, while learning rates that are too low could reseult in extremely slow convergence.
+1. Learning rate is extremely important. High learning rates often result in divergence, while learning rates that are too low could result in extremely slow convergence.
 
 2. Newton method seems to show a divergence prior to convergence. This could be due to the relative position of the starting guess.
 
