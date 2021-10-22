@@ -42,7 +42,13 @@ x^2 + y^2 = 26
 ![](/assets/images/posts/graddesc/graph2.jpg)
 
 
-In general, the gradient descent and Newton methods arrived at the same answers as MATLAB's own optimization functions. The number of iterations is roughly the same, although the Newton method theoretically should converge faster. Also, it must be noted that the Newton method seems to see a divergence in 
+In general, the gradient descent and Newton methods arrived at the same answers as MATLAB's own optimization functions. The number of iterations is roughly the same, although the Newton method theoretically should converge faster. 
+
+Also, it must be noted that the Newton method seems to see a divergence prior to converging to the right answer. This could be due to an issue with the learning rate, or due to the relative location of the starting guess in relation to the minimum point. 
+
+![graddesc.jpg](/assets/images/posts/graddesc/GradientDescent.jpg)
+
+![newton.jpg](/assets/images/posts/graddesc/NewtonMethod.jpg)
 
 
 # Code
