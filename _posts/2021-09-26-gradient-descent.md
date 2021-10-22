@@ -50,6 +50,14 @@ Also, it must be noted that the Newton method seems to see a divergence prior to
 
 ![newton.jpg](/assets/images/posts/graddesc/NewtonMethod.jpg)
 
-
 # Code
-The full self written MATLAB code is available on the github page for the [project](https://github.com/Jwangjy/).
+
+The full self written MATLAB code is available on the github page for the [project](https://github.com/Jwangjy/graddesc).
+
+# Take Aways
+
+1. Learning rate is extremely important. High learning rates often result in divergence, while learning rates that are too low could reseult in extremely slow convergence.
+
+2. Newton method seems to show a divergence prior to convergence. This could be due to the relative position of the starting guess.
+
+3. For systems where there are more than 1 optimum point, such as in Function 2, the end result that optimization gives is dependent on the starting location. Hence, it is necessary to check multiple different starting points for all optimization routines. 
