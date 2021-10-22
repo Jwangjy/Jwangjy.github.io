@@ -1,5 +1,5 @@
 ---
-title: "Advanced Econometrics - Logistic Regression and Classification
+title: "Advanced Econometrics - Logistic Regression and Classification"
 categories:
   - Projects
   - Matlab
