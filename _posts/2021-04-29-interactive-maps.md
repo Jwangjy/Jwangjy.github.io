@@ -15,7 +15,7 @@ header:
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Summary](#summary)
-3. [Data Cleaning](#datacleaning)
+3. [Data Cleaning](#data-cleaning)
 4. [Analysis](#analysis)
 5. [Challenges](#challenges)
 6. [Conclusion](#conclusion)

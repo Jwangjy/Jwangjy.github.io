@@ -19,8 +19,8 @@ header:
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Data](#data)
-3. [Model - Multiclass Logistic Regression and K-means Clustering](#model)
-4. [Model - Principal Component Analysis](#model)
+3. [Model 1](#model-1)
+4. [Model 2](#model-2)
 5. [Code](#code)
 6. [Take Aways](#takeaways)
 
@@ -34,7 +34,9 @@ The Iris flower dataset is a famous data set used in machine learning classes. M
 
 The data contains 150 rows with the petal length and width, and sepal length and width of each individual flower. It is split 50/50/50 between the three types of Irises: Setosa, Versicolor and Virginica. The aim of the exercise is to create a model that can accurately cluster the flowers into the three categories.
 
-# Model - Multiclass Logistic Regression and K-means Clustering
+# Model 1
+
+## Multiclass Logistic Regression and K-means Clustering
 
 I first tested a linear boundary between the three classifications, after conducting a multiclass one-vs-all logistic regression on the data.
 
@@ -54,7 +56,9 @@ The next model tested was through using k-means clustering to group the data poi
 
 Model accuracy is slightly lower at 89.3%. The chief areas of inaccuracy are between classifications for Versicolor and Virginica.
 
-# Model - Principal Component Analysis
+# Model 2
+
+## Principal Component Analysis
 
 I also conducted a principal component analysis on the dataset. The respective variances explained by each component are below:
 
