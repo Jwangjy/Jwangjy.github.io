@@ -17,7 +17,7 @@ header:
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Questions](#questions)
+2. [Modeol](#model)
 3. [Code](#code)
 4. [Take Aways](#takeaways)
 
@@ -25,7 +25,7 @@ header:
 
 As part of the Advanced Econometrics class, we did an exploration of Gradient Descent and Newton Method as an optimization tool for machine learning, in relation to linear and logistic regressions. In this post, I will be documenting the learning points and my key take aways from this.
 
-# Questions
+# Model
 
 As part of the project, we were expected to write our own gradient descent and Newton method code to find the optimal solutions to the below set of multi-variate functions:
 

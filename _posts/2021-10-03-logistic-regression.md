@@ -1,5 +1,5 @@
 ---
-title: "Advanced Econometrics - Logistic Regression and Classification"
+title: "Advanced Econometrics - Machine Learning - Logistic Regression and Classification"
 categories:
   - Projects
   - Matlab
@@ -18,7 +18,7 @@ header:
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Questions](#questions)
+2. [Model](#model)
 3. [Code](#code)
 4. [Take Aways](#takeaways)
 
@@ -26,7 +26,7 @@ header:
 
 For this project, I tackled a classification problem for a provided data set using logistic regression,and conducted a classification on the data using self written gradient descent optimization.
 
-# Questions
+# Model
 
 The data provided was split into two categories, denoted in the below graph as blue for 0 and yellow for 1, with arbitrary x and y values.
 
