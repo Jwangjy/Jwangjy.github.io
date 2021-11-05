@@ -1,5 +1,5 @@
 ---
-title: "Advanced Econometrics - Machine Learning - Logistic Regression and Classification"
+title: "Machine Learning - Logistic Regression and Classification"
 categories:
   - Projects
   - Matlab
@@ -20,7 +20,7 @@ header:
 1. [Introduction](#introduction)
 2. [Model](#model)
 3. [Code](#code)
-4. [Take Aways](#takeaways)
+4. [Take Aways](#take-aways)
 
 # Introduction
 

@@ -1,5 +1,5 @@
 ---
-title: "Advanced Econometrics - Machine Learning - Multiclass Logistic Regression, K-means clustering and Principal Component Analysis"
+title: "Machine Learning - Multiclass Logistic Regression, K-means clustering and Principal Component Analysis"
 categories:
   - Projects
   - Matlab
@@ -22,7 +22,7 @@ header:
 3. [Model 1](#model-1)
 4. [Model 2](#model-2)
 5. [Code](#code)
-6. [Take Aways](#takeaways)
+6. [Take Aways](#take-aways)
 
 # Introduction
 
@@ -63,8 +63,11 @@ Model accuracy is slightly lower at 89.3%. The chief areas of inaccuracy are bet
 I also conducted a principal component analysis on the dataset. The respective variances explained by each component are below:
 
 Variance explained by principal component 1 = 80.59%
+
 Variance explained by principal component 2 = 14.92%
+
 Variance explained by principal component 3 = 2.91%
+
 Variance explained by principal component 4 = 1.58%
 
 Graphically, post PCA component reduction, we see the below representations:
@@ -99,8 +102,8 @@ The full self written MATLAB code is available on the github page for the [proje
 
 # Take Aways
 
-1. PCA is a potential way to reduce the size of datasets greatly, as well as remove the impact of multicollinearity within the dataset. However, it can become expensive to perform for large datasets.
+1. PCA is a potential way to reduce the size of datasets, as well as remove the impact of multicollinearity within the dataset. However, it can become expensive to perform for large datasets.
 
-2. K-means clustering results are dependent on the rng seed, as different starting cluster locations could lead to slightly different answers. 
+2. K-means clustering results are dependent on the rng seed, as different starting cluster locations could lead to different answers. 
 
 3. Model accuracy is highly dependent on the most important principal components by singular values. It is important to check these prior to reducing the model.

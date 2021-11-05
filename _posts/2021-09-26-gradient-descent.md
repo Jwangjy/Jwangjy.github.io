@@ -1,5 +1,5 @@
 ---
-title: "Advanced Econometrics - Machine Learning - Gradient Descent and Newton Method for Optimization"
+title: "Data Analysis and Regression - Gradient Descent and Newton Method for Optimization"
 categories:
   - Projects
   - Matlab
@@ -17,9 +17,9 @@ header:
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Modeol](#model)
+2. [Model](#model)
 3. [Code](#code)
-4. [Take Aways](#takeaways)
+4. [Take Aways](#take-aways)
 
 # Introduction
 
