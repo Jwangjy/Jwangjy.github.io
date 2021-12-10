@@ -9,7 +9,7 @@ tags:
   - Regression
 excerpt: "Advanced Econometrics Homework on Stochastic Descent and Minibatch Descent" 
 header:
-  overlay_image: /assets/images/posts/stochdesc/stochdesc2.jpg
+  overlay_image: /assets/images/posts/stochdesc/stochdesc2.JPG
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption:
 ---
@@ -47,7 +47,7 @@ where $x_{i}$ and $y_{i}$ denote the $i$ th row of the training set, selected ra
 
 Over 10,000 iterations, we derived a final cost of 163,369 from stochastic descent. Below is a graphical example of what stochastic descent looks like on a topological function:
 
-![stochdesc1.jpg](/assets/images/posts/stochdesc/stochdesc1.jpg)
+![stochdesc1.jpg](/assets/images/posts/stochdesc/stochdesc1.JPG)
 
  <font size="1">"Image credit: Serguei Maliar, Columbia University" </font>
 
@@ -55,7 +55,7 @@ As shown, stochastic gradient descent takes random steps based on the probabilit
 
 With a converging learning rate of, for example, $\alpha = \frac{Constant 1}{Iteration Number + Constant 2}$, we will achieve convergence that looks like the below. This is due to a decreasing emphasis on the effects of the gradient on our approximation of $\theta$ with increasing iteration count, allowing for a closer convergence to optimum.
 
-![stochdesc2.jpg](/assets/images/posts/stochdesc/stochdesc2.jpg)
+![stochdesc2.jpg](/assets/images/posts/stochdesc/stochdesc2.JPG)
 
  <font size="1">"Image credit: Serguei Maliar, Columbia University" </font>
 
