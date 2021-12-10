@@ -18,7 +18,7 @@ header:
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Polynomial Degree Model Selection](#polynomial-degree-model-selection)
-3. [Regularization](#regularizatio)
+3. [Regularization](#regularization)
 4. [Code](#code)
 5. [Take Aways](#take-aways)
 
